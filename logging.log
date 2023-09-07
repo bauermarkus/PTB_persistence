@@ -1,0 +1,49 @@
+2023-09-07 22:08:25,127 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getMe "HTTP/1.1 200 OK"
+2023-09-07 22:08:25,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/deleteWebhook "HTTP/1.1 200 OK"
+2023-09-07 22:08:25,348 - telegram.ext.Application - INFO - Application started
+2023-09-07 22:08:26,351 - root - INFO - Update bot data
+2023-09-07 22:08:27,351 - root - INFO - Update bot data
+2023-09-07 22:08:28,353 - root - INFO - Update bot data
+2023-09-07 22:08:29,355 - root - INFO - Update bot data
+2023-09-07 22:08:30,355 - root - INFO - Update bot data
+2023-09-07 22:08:31,357 - root - INFO - Update bot data
+2023-09-07 22:08:32,366 - root - INFO - Update bot data
+2023-09-07 22:08:33,368 - root - INFO - Update bot data
+2023-09-07 22:08:34,368 - root - INFO - Update bot data
+2023-09-07 22:08:35,371 - root - INFO - Update bot data
+2023-09-07 22:08:36,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getUpdates "HTTP/1.1 200 OK"
+2023-09-07 22:08:36,385 - root - INFO - Update bot data
+2023-09-07 22:08:37,386 - root - INFO - Update bot data
+2023-09-07 22:08:38,387 - root - INFO - Update bot data
+2023-09-07 22:08:38,524 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-09-07 22:08:38,525 - telegram.ext.Application - INFO - Application.stop() complete
+2023-09-07 22:08:38,527 - root - INFO - Update bot data
+2023-09-07 22:16:57,493 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getMe "HTTP/1.1 200 OK"
+2023-09-07 22:16:57,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/deleteWebhook "HTTP/1.1 200 OK"
+2023-09-07 22:16:57,634 - telegram.ext.Application - INFO - Application started
+2023-09-07 22:16:58,630 - root - INFO - Update bot data
+2023-09-07 22:16:59,633 - root - INFO - Update bot data
+2023-09-07 22:17:00,633 - root - INFO - Update bot data
+2023-09-07 22:17:01,636 - root - INFO - Update bot data
+2023-09-07 22:17:02,638 - root - INFO - Update bot data
+2023-09-07 22:17:03,013 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-09-07 22:17:03,013 - telegram.ext.Application - INFO - Application.stop() complete
+2023-09-07 22:17:03,014 - root - INFO - Update bot data
+2023-09-07 22:25:08,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getMe "HTTP/1.1 200 OK"
+2023-09-07 22:25:08,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/deleteWebhook "HTTP/1.1 200 OK"
+2023-09-07 22:25:08,933 - telegram.ext.Application - INFO - Application started
+2023-09-07 22:25:19,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getUpdates "HTTP/1.1 200 OK"
+2023-09-07 22:25:21,300 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-09-07 22:25:47,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/getMe "HTTP/1.1 200 OK"
+2023-09-07 22:25:47,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot6684460751:AAHssmUp2xVps7R1Q5IzlnUqsT6tbdOBY3A/deleteWebhook "HTTP/1.1 200 OK"
+2023-09-07 22:25:47,259 - telegram.ext.Application - INFO - Application started
+2023-09-07 22:25:48,260 - root - INFO - Update bot data
+2023-09-07 22:25:49,261 - root - INFO - Update bot data
+2023-09-07 22:25:50,261 - root - INFO - Update bot data
+2023-09-07 22:25:51,263 - root - INFO - Update bot data
+2023-09-07 22:25:52,264 - root - INFO - Update bot data
+2023-09-07 22:25:53,265 - root - INFO - Update bot data
+2023-09-07 22:25:54,266 - root - INFO - Update bot data
+2023-09-07 22:25:54,995 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-09-07 22:25:54,995 - telegram.ext.Application - INFO - Application.stop() complete
+2023-09-07 22:25:54,997 - root - INFO - Update bot data
