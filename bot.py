@@ -121,7 +121,7 @@ def main(debug:bool):
         logger.exception("Could not connect to database")
         exit(-2)
     
-    #cursor = {}   # <-- uncomment to break persistence data
+    cursor = {}   # <-- uncomment to unbreak persistence data
     persistence = Persistence( config['telegram']['users'], cursor )
 
     application = ApplicationBuilder().token(config['telegram']['token']).persistence(persistence=persistence).build()
