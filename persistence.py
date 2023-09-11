@@ -21,8 +21,7 @@ class Persistence(BasePersistence):
     async def get_bot_data(self):
         return {'users': self._users, 'cursor': self._cursor}
     async def update_bot_data(self, data) -> None:
-        print("Update bot data")
-        logging.getLogger().info("Update bot data")
+        print("Update bot data", data)
     async def refresh_bot_data(self, bot_data) -> None:
         print("Refresh:",bot_data)
         

@@ -1,9 +1,10 @@
 import configparser, logging, sys, os, re
 
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import Update
 from telegram.ext import filters, ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, CallbackQueryHandler
 
 from persistence import Persistence
+from context import pyodbcContext
 
 import pyodbc
 
@@ -102,6 +103,7 @@ def readConfig(configfile:str):
 
 def main(debug:bool):
     logging.basicConfig(filename='logging.log', encoding='utf-8', level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    logging.getLogger('httpx').setLevel(logging.WARNING)
     logger = logging.getLogger()
     if debug:
         logger.info("Set level to DEBUG")
@@ -121,10 +123,12 @@ def main(debug:bool):
         logger.exception("Could not connect to database")
         exit(-2)
     
-    cursor = {}   # <-- uncomment to unbreak persistence data
-    persistence = Persistence( config['telegram']['users'], cursor )
+    #cursor = {}   # <-- uncomment to unbreak persistence data
+    persistence = Persistence( config['telegram']['users'], {} )
 
-    application = ApplicationBuilder().token(config['telegram']['token']).persistence(persistence=persistence).build()
+    context_types = ContextTypes(context=pyodbcContext)
+    context_types.context.cursor = cursor
+    application = ApplicationBuilder().token(config['telegram']['token']).persistence(persistence=persistence).build() #.context_types(context_types)
     
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
