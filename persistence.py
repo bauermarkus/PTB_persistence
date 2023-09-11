@@ -19,7 +19,7 @@ class Persistence(BasePersistence):
         self._cursor = cursor
 
     async def get_bot_data(self):
-        return {'users': self._users, 'cursor': self._cursor}
+        return {'users': self._users, 'cursor': self._cursor, 'save' : ''}
     async def update_bot_data(self, data) -> None:
         print("Update bot data", data)
     async def refresh_bot_data(self, bot_data) -> None:
